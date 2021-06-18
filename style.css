@@ -1,0 +1,72 @@
+body {
+    background-image: url("assets/green-dust-and-scratches.png");
+    background-color: rgba(0, 13, 7, 0.541);
+    color: #005906;
+    text-shadow: 2px 2px 5px #e7eee7;
+    text
+}
+
+.topLogo {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 65px;
+    text-align: center;
+}
+
+p {
+    font-family: "Roboto";
+    font-size: 35px;
+    text-align: center;
+}
+
+.imageQuote {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.gridItem1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.gridItem2 {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+#heroImage {
+    max-height: 400px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+#quote {
+    font-family: 'Amatic SC';
+    font-size: 300%;
+    font-weight: bold;
+}
+
+button {
+    width: 250px;
+    height: 60px;
+    font-size: 40px;
+    font-family: "Amatic SC";
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #005906;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
